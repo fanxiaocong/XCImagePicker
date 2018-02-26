@@ -1,4 +1,5 @@
 # XCImagePicker
+<<<<<<< HEAD
 
 [![CI Status](http://img.shields.io/travis/fanxiaocong/XCImagePicker.svg?style=flat)](https://travis-ci.org/fanxiaocong/XCImagePicker)
 [![Version](https://img.shields.io/cocoapods/v/XCImagePicker.svg?style=flat)](http://cocoapods.org/pods/XCImagePicker)
@@ -27,3 +28,6 @@ fanxiaocong, 1016697223@qq.com
 ## License
 
 XCImagePicker is available under the MIT license. See the LICENSE file for more info.
+=======
+XCImagePicker本地照片选择器（基于JKPicker）
+>>>>>>> 5904035b43224aef2fb5a34f571ad75e5060a7be

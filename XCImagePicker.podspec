@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XCImagePicker'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of XCImagePicker.'
 
 # This description is used to generate tags and improve search results.
@@ -22,7 +22,6 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/fanxiaocong/XCImagePicker'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fanxiaocong' => '1016697223@qq.com' }
   s.source           = { :git => 'https://github.com/fanxiaocong/XCImagePicker.git', :tag => s.version.to_s }
@@ -30,7 +29,15 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
+
   s.source_files = 'XCImagePicker/Classes/**/*'
+  
+  s.resource_bundles = {
+      'XCImagePicker' => ['XCImagePicker/Assets/**/*.png']
+  }
+  
+  s.dependency 'XCActionSheet.'
+  s.dependency 'XCMacros'
   
   # s.resource_bundles = {
   #   'XCImagePicker' => ['XCImagePicker/Assets/*.png']

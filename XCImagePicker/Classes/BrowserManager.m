@@ -11,8 +11,9 @@
 #import "PhotoAlbumManager.h"
 #import <AssetsLibrary/AssetsLibrary.h>
 
-#import <XCActionSheet/XCActionSheet.h>
+//#import <XCActionSheet/XCActionSheet.h>
 #import <XCMacros/XCMacros.h>
+#import "XCActionSheet.h"
 
 
 #define MAX_COUNT 9     // 默认的最大选择照片数量
