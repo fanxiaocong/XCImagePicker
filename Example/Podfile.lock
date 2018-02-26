@@ -1,0 +1,22 @@
+PODS:
+  - XCActionSheet. (0.0.2)
+  - XCImagePicker (0.0.1):
+    - XCActionSheet.
+    - XCMacros
+  - XCMacros (1.0.2)
+
+DEPENDENCIES:
+  - XCImagePicker (from `../`)
+
+EXTERNAL SOURCES:
+  XCImagePicker:
+    :path: ../
+
+SPEC CHECKSUMS:
+  XCActionSheet.: 114702723fd788ba75fcd1d46c4c9a8fe35bf02a
+  XCImagePicker: cbc47543d307455d0fb768ef50fcfce898bd1ff1
+  XCMacros: abf7c03e5128fea2e800887a7b25c82336c3940b
+
+PODFILE CHECKSUM: 170e7423c7e9054b264396b9c356efb2c0526fb0
+
+COCOAPODS: 1.4.0.rc.1

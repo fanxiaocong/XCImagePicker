@@ -1,0 +1,1373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		067E733C45BAD78C6005D8D6D4906A13 /* compose_photo_original@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 925AD9B81C71363C0583DDE3C6C48434 /* compose_photo_original@3x.png */; };
+		0B209BDAE9765D06082DDAB875F6896F /* JKAssetsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A64BA2157A348772B0BF36691920D8 /* JKAssetsViewCell.m */; };
+		0D2632FFF72CD131291298144ED5D77D /* BrowserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5813790763AB5FE0D7604B3F8EED49F6 /* BrowserManager.m */; };
+		0E03D2B0B6E09E868AD30659E7D4D1A6 /* camera_edit_cut_cancel_highlighted@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D26F7ABB1206ABD0FD3CF8EE62CEE825 /* camera_edit_cut_cancel_highlighted@3x.png */; };
+		100C26D5D74C227B20B53F403AC0315A /* JKAssetsGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E00C94075BEDA7A10E630D969ED83F68 /* JKAssetsGroupCell.m */; };
+		1265E2AD5308E9A0B1FC93D7939B359F /* compose_photograph_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 712889F8541AEBF72651F4AFEF7840C7 /* compose_photograph_background.png */; };
+		13AB6A1E2B68077AB4E442BC8B1609B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61413C785B764DEC20AE882B40D77F6D /* Foundation.framework */; };
+		1B0037FA71E372E4A4243C7680F05988 /* JKImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 616F7B87CDBB1BDCDE5FE45AF520B9FF /* JKImagePickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E27174A35D6600D9B45B70FCC82527C /* photo_check_default@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62F77950767C410BE18D87DD5CCF5B64 /* photo_check_default@3x.png */; };
+		20D7C582CA75931AF427669C7D517C89 /* JKImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = D70D56B0CE9D455A5D28756DB8BC22A6 /* JKImagePickerController.m */; };
+		2699751FCDEDF4E46990782228D93F1F /* camera_edit_cut_cancel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C375DCDA73D0C5C90BCE4F7DB2B1823 /* camera_edit_cut_cancel@3x.png */; };
+		26C177F371119A7982665B26FDCF9DE9 /* picker_image_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 8181183167BFF95911F2E5B330C53D6D /* picker_image_placeholder.png */; };
+		27F601C8369C34590BF2E57F9BA119D6 /* BrowserConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = ECF66DC5B9D9F926A5487095B7C12607 /* BrowserConfigure.m */; };
+		28ACF6A40EF5067C648FA1787150FF3D /* BrowserManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BCF9F2FF272EE58788BB24F5622963C9 /* BrowserManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D8AB947D82A693DB1C449E94379E7E6 /* navigationbar_arrow_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 33DBF818C14C7FFD6CC1DF478C0DA3AA /* navigationbar_arrow_down@3x.png */; };
+		309C98CF143467615B59A829BCDE2F18 /* JKPhotoBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = E0FB012587443AD90B2080ABDFC3879F /* JKPhotoBrowser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30C0C399CF2C1A0A2C71157349E0C3AF /* JKPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = A897DDB081CA4263D23EF8E13B37456E /* JKPhotoBrowser.m */; };
+		345AB77CEC41250B85359B0B8722BA69 /* PhotoAlbumManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 371A31C95BFC90051338FC5006109CF3 /* PhotoAlbumManager.m */; };
+		347149F2A3762DA5D16FDB6623B7311A /* navigationbar_arrow_up.png in Resources */ = {isa = PBXBuildFile; fileRef = D5F66EC5731B8CDBEF49025E848A8538 /* navigationbar_arrow_up.png */; };
+		35C2DCF71BDC227D9F0572EBC54BBC27 /* picker_button_orange@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7FACF12EE7C5D2A61B99D9B93F8A05C /* picker_button_orange@3x.png */; };
+		3A6EFACE748C6A222A3B9E8A500CF470 /* Pods-XCImagePicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 672AAE59281004C24A567205032C2143 /* Pods-XCImagePicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CDF3A4D8A916D806F32B54A13DCCBB9 /* JKAssetsGroupsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DA8373392FCC50A1654B1BF777FFBB1 /* JKAssetsGroupsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46489C6A3C85081926106822FBB7CEA2 /* picker_button_orange_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 15C8F18AB473A7F02E0C324C772A2DA0 /* picker_button_orange_highlighted.png */; };
+		4A2B0F69B95B73FE4CFB956B296E1853 /* JKAssetsGroupsView.m in Sources */ = {isa = PBXBuildFile; fileRef = DECA33B5F9A1D47EEB0B641D3A42A1F1 /* JKAssetsGroupsView.m */; };
+		4A85592D96B27CF93958ADE699AE126C /* picker_photo_filter_checked@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0117810F6F03E0A5E28845A367B4F66 /* picker_photo_filter_checked@3x.png */; };
+		4F4633263B0E0D9C75B3D813D5864750 /* assets_placeholder_picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C5CB3C54ABE94B4F2611C72DC857D17 /* assets_placeholder_picture.png */; };
+		52055E14463EAF1EFB037D1843186CD8 /* camera_edit_cut_cancel_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AA14C1542598D8E515301FEF9A19CDB /* camera_edit_cut_cancel_highlighted.png */; };
+		52413903286406D3853F5A94F2F3B2B7 /* UIScrollView+XCExtension_h.h in Headers */ = {isa = PBXBuildFile; fileRef = 61C7BB779E205FE233782E2F94F03F7D /* UIScrollView+XCExtension_h.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57514DFDA508B684B22DB397D702DCBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61413C785B764DEC20AE882B40D77F6D /* Foundation.framework */; };
+		57A8629D19749C124B531AFEA3694A01 /* navigationbar_title_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E94DE29ADA28C845F7197C2329D18D35 /* navigationbar_title_highlighted@2x.png */; };
+		591B07C1965789036D18465613B11902 /* photo_check_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A0456B9F4136D1B9DF1F73D8A552D61 /* photo_check_selected@2x.png */; };
+		61BD57F80C9E5C9C30C5DA62EF789753 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61413C785B764DEC20AE882B40D77F6D /* Foundation.framework */; };
+		6B7FE7A034DD00C1D9E88D19EA48226A /* Pods-XCImagePicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A552EA6DFD2952AEF141890917344C97 /* Pods-XCImagePicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DEE73AE513AF3E0CAE008C1989B58C9 /* compose_photograph_background@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 42B5D13B268C7CFE1E1DE5AB1BBF0DBC /* compose_photograph_background@3x.png */; };
+		7039C3F1919E459733B59E34A663A4C5 /* JKAssetsThumbnailView.h in Headers */ = {isa = PBXBuildFile; fileRef = 75465F82BC9C9755A31622719781561D /* JKAssetsThumbnailView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		722BDCBE73292EF24FB1BABA9498E9CE /* UIScrollView+XCExtension_h.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CC4BBF8C99DE411417E84073738CEC /* UIScrollView+XCExtension_h.m */; };
+		7301C8ACBE7056087F34AD160B800555 /* JKUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A9F3785BD8EACD935B77CB862D192F /* JKUtil.m */; };
+		74093EFAD7B2A991F487FEC69092487E /* XCImagePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6A6EB55189B0FC92F9E5B8C7C1FC4DB1 /* XCImagePicker.bundle */; };
+		77D132FF90FCD939A092CF8FDF59E74F /* compose_photograph@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 325DC4C3D071A78FD0497F09DB21CAC3 /* compose_photograph@2x.png */; };
+		7AEB5476327AE172E397CA521A3FDF61 /* XCActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = A9AF2E2141537FC9FCC0992A743FD30F /* XCActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B9F43DF9E6FCF1232B8F98FFAC85BA4 /* PhotoAlbumManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A617BF945603D2AE76607BC6F3D924A /* PhotoAlbumManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EB55E30725514884B63F008826FCD69 /* JKAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 58070E3A128F0B20B61A75241EF92D9B /* JKAssets.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F1347A0C025F7FDB3A2C81DFA968613 /* picker_button_orange_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD60AA646E930C4907520AB04DC09700 /* picker_button_orange_highlighted@2x.png */; };
+		85033FC5CA1A3A3909012C57F053388A /* JKAssetsCollectionFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = BDE63CF343102F95FD29402437756D3B /* JKAssetsCollectionFooterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8509B44EE92D5CE158EE43EE9EBEC70C /* JKUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F715CF691520F70ED494A8112C7362D /* JKUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86FECD7CEE6B6F0B534A08EE1E90AC71 /* picker_button_orange_highlighted@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8138268535F15D360D6197ECFF6F972 /* picker_button_orange_highlighted@3x.png */; };
+		8A2883AC0E7F673C4BAAF5A7B2BB2749 /* navigationbar_title_highlighted@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7891031632451A2E7584F2830FA11E2F /* navigationbar_title_highlighted@3x.png */; };
+		8D009684E5492F5C9C81B99DE43220CA /* photo_check_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C26CCE075A5E31E5320E8A863E13946 /* photo_check_default@2x.png */; };
+		8EC3EA09CB5BBC5F26896FE913E56A88 /* Pods-XCImagePicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C80CD05FDD5CEB442EFEDAB78D6B57 /* Pods-XCImagePicker_Example-dummy.m */; };
+		93458ACC329E84FA8A311AAB6046001D /* assets_placeholder_picture@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DC32807F2AAC8B045F3697C154309B0 /* assets_placeholder_picture@3x.png */; };
+		940136779952E78E24A7D0FB89318389 /* XCActionSheetConfigure.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F4161B82F40369D88E24C69EDFFD5DC /* XCActionSheetConfigure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		954FA823EBEF693308C78DBC9424E1BD /* picker_button_orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 793FA428FB702094EFAECD176D7535B8 /* picker_button_orange.png */; };
+		97A34083843CBB990C982A02F8BFA0F7 /* picker_image_placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59FDD3E0C40D32CB6FA9DB67D0989117 /* picker_image_placeholder@2x.png */; };
+		9BD9B19A76C1BB2BCF2339F97BFC3CDD /* navigationbar_arrow_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 629AA099C78351997A0A17B0F02593E9 /* navigationbar_arrow_up@2x.png */; };
+		9D3613469DC7CF90DEB6075B58B2DF4B /* XCActionSheet.-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8A28C7260C317822D5D83D7BD0F97C /* XCActionSheet.-dummy.m */; };
+		A05164D19410A841070B5DC399557D1A /* assets_placeholder_picture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4812449A5260128B901A9B38CDA4D3A /* assets_placeholder_picture@2x.png */; };
+		A6DC1BA7FFB042E9553D04FE2F5CCEC7 /* compose_photo_original_highlighted@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 71DFE893CD2A67B7D14415C4202E32E9 /* compose_photo_original_highlighted@3x.png */; };
+		AA837410E4264479D7378E870F56C4D2 /* navigationbar_arrow_up@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A18B04C7B1344ECBB61F1CDE3A95CAE9 /* navigationbar_arrow_up@3x.png */; };
+		AAAF25798334A654309ABE273463D89B /* JKPromptView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAEAD97987536C04C5BCCAC9FA0A01A /* JKPromptView.m */; };
+		AB394E2D04BD5C2FAE1614149CC994E1 /* JKPhotoBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3F300AB711AB5C3DC4328D3DF844AD /* JKPhotoBrowserCell.m */; };
+		ABE78BAD6544BE58ABCCF71493D24AA8 /* XCImagePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6797E06C4A3ECABAB03CB932F0A5A7BC /* XCImagePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFE7E29E1D355FCC33B08D2391752E40 /* compose_photo_original@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 907F75C166197512E7EDBE996AADE4E1 /* compose_photo_original@2x.png */; };
+		B04B48B95E5E26994C7238BE18079FCF /* XCActionSheet_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 813FAA829E460FC654F073F2BB237C82 /* XCActionSheet_.framework */; };
+		B215CD54058C2DD96BEFD79F3557DFFF /* navigationbar_title_highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 48E848974986EBE800552986956B08C2 /* navigationbar_title_highlighted.png */; };
+		B2BBAEDF12F27BECE0E72DAED58E76F8 /* picker_alert_sigh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1690A0E7A0C74B86255705D30ECB82B /* picker_alert_sigh@2x.png */; };
+		B39E7771778DFAF4F9A0FB0658A6095C /* navigationbar_arrow_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A987541F4B7E03FB8EC6A298AB538E9E /* navigationbar_arrow_down@2x.png */; };
+		B6A893F59799574A3A9DBD857C8BACA5 /* JKAssetsThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3C64441D63488C86DAD3FB6D32E5F0 /* JKAssetsThumbnailView.m */; };
+		B8C56A37AB44B5920C3C3F7F347273F5 /* BrowserConfigure.h in Headers */ = {isa = PBXBuildFile; fileRef = B2A0D8487E8FAF6F8574BBC2364F7F6D /* BrowserConfigure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B93C57B30A605F0EE6AF13FAE76E5B82 /* XCActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = D612176B1E015E9B6A062670DA2B1281 /* XCActionSheet.m */; };
+		B9F6ADFEE4F34F7C362696ECAED4CA32 /* picker_button_orange@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C29071A734C381A8337F3B2B59E7FCDB /* picker_button_orange@2x.png */; };
+		BA1827732B0BAB2AD276A85DE72541DC /* picker_alert_sigh@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9476439486896F124F045248141BD7C3 /* picker_alert_sigh@3x.png */; };
+		BAEFB38DDACD9F1CE65B10B3CCA01670 /* XCImagePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B4ADAA7B3940E65B28F7EC83B93259 /* XCImagePicker-dummy.m */; };
+		BB4843DA308708CA39D66C7E6B9B30C7 /* XCActionSheet.-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 943D3DF8F7DF936751ACF6A05A102C9D /* XCActionSheet.-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8270FE83B7B7149B35619726FB20DFA /* camera_edit_cut_cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DC09A02C0624EA213C0BE537F7CA0E22 /* camera_edit_cut_cancel@2x.png */; };
+		C87F8EF47B398DB89A29BF3A27403A69 /* UIView+JKPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = EB715DF2FBA3F4214A3AE034964E901D /* UIView+JKPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB5AB0C97B56A17A5E71573A7CFEA433 /* navigationbar_arrow_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A9987D26E79312B25707AC6A8E4F4EA /* navigationbar_arrow_down.png */; };
+		CE8A9EC04577F990C6446958F789D75A /* XCActionSheetConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = C932F1782E992BBA5FA662CBC868009F /* XCActionSheetConfigure.m */; };
+		D6AD4C5D8788EEC97C628038563A59C7 /* compose_photograph@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA7D25EB8D01A7E54402BE343A68BDD /* compose_photograph@3x.png */; };
+		D77CB34F1801522D05ED08025F179168 /* JKPromptView.h in Headers */ = {isa = PBXBuildFile; fileRef = A267964B2D826E04CEB8399467B13DF7 /* JKPromptView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB5F292B8A896895FCC06E4B0C97F88C /* picker_photo_filter_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = CA952A4640BAFA42D0067605BFD82607 /* picker_photo_filter_checked.png */; };
+		DBAA447BA800D3AE159B2E7D66CEC144 /* JKPhotoBrowserCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7297380C3518AA76E14B172462D84242 /* JKPhotoBrowserCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCAC1BC0DA4FC78837291BE2FFBA6AFE /* compose_photo_original_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C5599ADE9D2C4FA37857F2D2E46D6A8 /* compose_photo_original_highlighted@2x.png */; };
+		DD239B9C2B80A2EEEF38CD348335FBFD /* camera_edit_cut_cancel_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC31AC11E7DFFEF66BDBA32A4842E5A7 /* camera_edit_cut_cancel_highlighted@2x.png */; };
+		DE581A84E066E260AEB1734327AE2C85 /* photo_check_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 838C352312FC30EDBF95DDF37B5B5D69 /* photo_check_selected@3x.png */; };
+		E43EB7A80C171C9EE3EB03FECE7D1E6E /* UIView+JKPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C8B78B2A0376E7D6B6E38B269FDE73 /* UIView+JKPicker.m */; };
+		E53B6347880752A416FF3E0BC155CAFD /* picker_photo_filter_checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C0FB7F1CAA98D09F3F08ECEBA6B0CB1 /* picker_photo_filter_checked@2x.png */; };
+		E8D64BDBAD37832174FEEE5B1DA3A541 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61413C785B764DEC20AE882B40D77F6D /* Foundation.framework */; };
+		ED9FAB57694899E1895EC8204B5C02D6 /* camera_edit_cut_cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BFB8C29E2F55189742793DA0E06962D /* camera_edit_cut_cancel.png */; };
+		EEE407B0BCFE17509377F0EBC068AC15 /* JKAssetsGroupCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 366AC3A9247D1E92731641172F5DD868 /* JKAssetsGroupCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F09C8BE8F3831201BF92F863679FFD6F /* Pods-XCImagePicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E72C44D13F7CC5C4AEC38C8183B5919E /* Pods-XCImagePicker_Tests-dummy.m */; };
+		F3028F2187262546F101F44B3D22C548 /* picker_alert_sigh.png in Resources */ = {isa = PBXBuildFile; fileRef = E2A83D4DF67F32E339D655C77144E64A /* picker_alert_sigh.png */; };
+		F72302ECA0E4618AB9CE17565D00B505 /* compose_photograph_highlighted@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FD78A63514C2870B762F30E019E9D11 /* compose_photograph_highlighted@3x.png */; };
+		F820832C3859185DF51677F1D13589A3 /* JKAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6917A0A1EEF5A45974770A9DA2485A /* JKAssets.m */; };
+		F8C4CADECA9072F360163FA97BB3F951 /* compose_photograph_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 524A65A38875BD05629071FD26A6FE1C /* compose_photograph_background@2x.png */; };
+		F8CB483D2B1512AFE05157C0FE7B84EC /* JKAssetsCollectionFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F6809E93615BCD988A3AB93EDAE02744 /* JKAssetsCollectionFooterView.m */; };
+		FBD54A2C74641EA063AFC9B3FE679012 /* JKAssetsViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 333C7E858D982572707D7EDE082DD256 /* JKAssetsViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE286F4EEDC276C72E5BFAD0311BF907 /* picker_image_placeholder@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 52626B1C5DC450703DB26E134F073385 /* picker_image_placeholder@3x.png */; };
+		FFD161223399E0A109A1B368BC0DFDCE /* compose_photograph_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD9CABB572B602A8C3DBB33A4AA57121 /* compose_photograph_highlighted@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F1F42E8B920748B37B37D73241503FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B83CA61EF8D41AD20FB5440E2A48BA6D;
+			remoteInfo = XCActionSheet.;
+		};
+		4B56F2423EAF9A73B07DFB3E5FB79AF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9363BAF0D87D30CF850533DE163FE769;
+			remoteInfo = XCImagePicker;
+		};
+		A17BA5CAC9ADBC65BF658BD60FEF7B80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C99F5BAB458477DD5A71098D7CCF9CC9;
+			remoteInfo = "XCImagePicker-XCImagePicker";
+		};
+		FD08BEB0962487B8D5674D635CF96025 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B83CA61EF8D41AD20FB5440E2A48BA6D;
+			remoteInfo = XCActionSheet.;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		028F1B6BBD5A3E73C68DA759AC911FD6 /* XCActionSheet.-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCActionSheet.-prefix.pch"; sourceTree = "<group>"; };
+		0B3C64441D63488C86DAD3FB6D32E5F0 /* JKAssetsThumbnailView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JKAssetsThumbnailView.m; sourceTree = "<group>"; };
+		0C26CCE075A5E31E5320E8A863E13946 /* photo_check_default@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_check_default@2x.png"; path = "XCImagePicker/Assets/photo_check_default@2x.png"; sourceTree = "<group>"; };
+		15C8F18AB473A7F02E0C324C772A2DA0 /* picker_button_orange_highlighted.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = picker_button_orange_highlighted.png; path = XCImagePicker/Assets/picker_button_orange_highlighted.png; sourceTree = "<group>"; };
+		167B1DA1FF9602E72420868297D20985 /* Pods-XCImagePicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XCImagePicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A0456B9F4136D1B9DF1F73D8A552D61 /* photo_check_selected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_check_selected@2x.png"; path = "XCImagePicker/Assets/photo_check_selected@2x.png"; sourceTree = "<group>"; };
+		1F4161B82F40369D88E24C69EDFFD5DC /* XCActionSheetConfigure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCActionSheetConfigure.h; path = XCActionSheet/XCActionSheetConfigure.h; sourceTree = "<group>"; };
+		230B6D80C07CB9EFA7F1AD5EE6999F9E /* Pods-XCImagePicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCImagePicker_Example-resources.sh"; sourceTree = "<group>"; };
+		2A8B3A6A62C6E94EC21E99C8813F3F0C /* XCImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XCImagePicker.framework; path = XCImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AA14C1542598D8E515301FEF9A19CDB /* camera_edit_cut_cancel_highlighted.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = camera_edit_cut_cancel_highlighted.png; path = XCImagePicker/Assets/camera_edit_cut_cancel_highlighted.png; sourceTree = "<group>"; };
+		2CFDD555DB70A10F095A33C4DCB6A7E6 /* Pods-XCImagePicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-XCImagePicker_Tests.modulemap"; sourceTree = "<group>"; };
+		322C74629AE480EC30329D945887C3A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		325DC4C3D071A78FD0497F09DB21CAC3 /* compose_photograph@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "compose_photograph@2x.png"; path = "XCImagePicker/Assets/compose_photograph@2x.png"; sourceTree = "<group>"; };
+		333C7E858D982572707D7EDE082DD256 /* JKAssetsViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JKAssetsViewCell.h; sourceTree = "<group>"; };
+		33DBF818C14C7FFD6CC1DF478C0DA3AA /* navigationbar_arrow_down@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "navigationbar_arrow_down@3x.png"; path = "XCImagePicker/Assets/navigationbar_arrow_down@3x.png"; sourceTree = "<group>"; };
+		366AC3A9247D1E92731641172F5DD868 /* JKAssetsGroupCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JKAssetsGroupCell.h; sourceTree = "<group>"; };
+		36B509C2E2396CF6FB79DEE0FF263C22 /* Pods-XCImagePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCImagePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		371A31C95BFC90051338FC5006109CF3 /* PhotoAlbumManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PhotoAlbumManager.m; sourceTree = "<group>"; };
+		3C375DCDA73D0C5C90BCE4F7DB2B1823 /* camera_edit_cut_cancel@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "camera_edit_cut_cancel@3x.png"; path = "XCImagePicker/Assets/camera_edit_cut_cancel@3x.png"; sourceTree = "<group>"; };
+		3C5599ADE9D2C4FA37857F2D2E46D6A8 /* compose_photo_original_highlighted@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "compose_photo_original_highlighted@2x.png"; path = "XCImagePicker/Assets/compose_photo_original_highlighted@2x.png"; sourceTree = "<group>"; };
+		3C5CB3C54ABE94B4F2611C72DC857D17 /* assets_placeholder_picture.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = assets_placeholder_picture.png; path = XCImagePicker/Assets/assets_placeholder_picture.png; sourceTree = "<group>"; };
+		3F6917A0A1EEF5A45974770A9DA2485A /* JKAssets.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JKAssets.m; sourceTree = "<group>"; };
+		3F715CF691520F70ED494A8112C7362D /* JKUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JKUtil.h; sourceTree = "<group>"; };
+		42B5D13B268C7CFE1E1DE5AB1BBF0DBC /* compose_photograph_background@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "compose_photograph_background@3x.png"; path = "XCImagePicker/Assets/compose_photograph_background@3x.png"; sourceTree = "<group>"; };
+		477DF58DF5E8F242D61864E81148FA45 /* Pods-XCImagePicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCImagePicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		47AB0A3C3972B8D694B41F4A5AD93103 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48E848974986EBE800552986956B08C2 /* navigationbar_title_highlighted.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = navigationbar_title_highlighted.png; path = XCImagePicker/Assets/navigationbar_title_highlighted.png; sourceTree = "<group>"; };
+		4BFB8C29E2F55189742793DA0E06962D /* camera_edit_cut_cancel.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = camera_edit_cut_cancel.png; path = XCImagePicker/Assets/camera_edit_cut_cancel.png; sourceTree = "<group>"; };
+		4C0FB7F1CAA98D09F3F08ECEBA6B0CB1 /* picker_photo_filter_checked@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "picker_photo_filter_checked@2x.png"; path = "XCImagePicker/Assets/picker_photo_filter_checked@2x.png"; sourceTree = "<group>"; };
+		4EC0FD04ADE44C161793E007A6417CE5 /* Pods-XCImagePicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-XCImagePicker_Example.modulemap"; sourceTree = "<group>"; };
+		4FAEAD97987536C04C5BCCAC9FA0A01A /* JKPromptView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JKPromptView.m; sourceTree = "<group>"; };
+		524A65A38875BD05629071FD26A6FE1C /* compose_photograph_background@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "compose_photograph_background@2x.png"; path = "XCImagePicker/Assets/compose_photograph_background@2x.png"; sourceTree = "<group>"; };
+		52626B1C5DC450703DB26E134F073385 /* picker_image_placeholder@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "picker_image_placeholder@3x.png"; path = "XCImagePicker/Assets/picker_image_placeholder@3x.png"; sourceTree = "<group>"; };
+		5335A512D685726E6DCBD3E61D4C2C61 /* XCActionSheet..xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XCActionSheet..xcconfig; sourceTree = "<group>"; };
+		55B4ADAA7B3940E65B28F7EC83B93259 /* XCImagePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XCImagePicker-dummy.m"; sourceTree = "<group>"; };
+		58070E3A128F0B20B61A75241EF92D9B /* JKAssets.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JKAssets.h; sourceTree = "<group>"; };
+		5813790763AB5FE0D7604B3F8EED49F6 /* BrowserManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BrowserManager.m; path = XCImagePicker/Classes/BrowserManager.m; sourceTree = "<group>"; };
+		583DC3578E5F0EB1489574FBA2C5F044 /* Pods-XCImagePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCImagePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		58A64BA2157A348772B0BF36691920D8 /* JKAssetsViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JKAssetsViewCell.m; sourceTree = "<group>"; };
+		59FDD3E0C40D32CB6FA9DB67D0989117 /* picker_image_placeholder@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "picker_image_placeholder@2x.png"; path = "XCImagePicker/Assets/picker_image_placeholder@2x.png"; sourceTree = "<group>"; };
+		5A9987D26E79312B25707AC6A8E4F4EA /* navigationbar_arrow_down.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = navigationbar_arrow_down.png; path = XCImagePicker/Assets/navigationbar_arrow_down.png; sourceTree = "<group>"; };
+		5F279948652F473C81524BB5FA3A0EBF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		61413C785B764DEC20AE882B40D77F6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		616F7B87CDBB1BDCDE5FE45AF520B9FF /* JKImagePickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JKImagePickerController.h; sourceTree = "<group>"; };
+		61C7BB779E205FE233782E2F94F03F7D /* UIScrollView+XCExtension_h.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+XCExtension_h.h"; sourceTree = "<group>"; };
+		61C8B78B2A0376E7D6B6E38B269FDE73 /* UIView+JKPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+JKPicker.m"; sourceTree = "<group>"; };
+		629AA099C78351997A0A17B0F02593E9 /* navigationbar_arrow_up@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "navigationbar_arrow_up@2x.png"; path = "XCImagePicker/Assets/navigationbar_arrow_up@2x.png"; sourceTree = "<group>"; };
+		62F77950767C410BE18D87DD5CCF5B64 /* photo_check_default@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_check_default@3x.png"; path = "XCImagePicker/Assets/photo_check_default@3x.png"; sourceTree = "<group>"; };
+		64CC6E7C8937EF476328BB450AFB3198 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		672AAE59281004C24A567205032C2143 /* Pods-XCImagePicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XCImagePicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		6797E06C4A3ECABAB03CB932F0A5A7BC /* XCImagePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCImagePicker-umbrella.h"; sourceTree = "<group>"; };
+		6A6EB55189B0FC92F9E5B8C7C1FC4DB1 /* XCImagePicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = XCImagePicker.bundle; path = "XCImagePicker-XCImagePicker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C3F300AB711AB5C3DC4328D3DF844AD /* JKPhotoBrowserCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JKPhotoBrowserCell.m; sourceTree = "<group>"; };
+		712889F8541AEBF72651F4AFEF7840C7 /* compose_photograph_background.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = compose_photograph_background.png; path = XCImagePicker/Assets/compose_photograph_background.png; sourceTree = "<group>"; };
+		71DFE893CD2A67B7D14415C4202E32E9 /* compose_photo_original_highlighted@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "compose_photo_original_highlighted@3x.png"; path = "XCImagePicker/Assets/compose_photo_original_highlighted@3x.png"; sourceTree = "<group>"; };
+		7297380C3518AA76E14B172462D84242 /* JKPhotoBrowserCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JKPhotoBrowserCell.h; sourceTree = "<group>"; };
+		74C80CD05FDD5CEB442EFEDAB78D6B57 /* Pods-XCImagePicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XCImagePicker_Example-dummy.m"; sourceTree = "<group>"; };
+		75465F82BC9C9755A31622719781561D /* JKAssetsThumbnailView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JKAssetsThumbnailView.h; sourceTree = "<group>"; };
+		7891031632451A2E7584F2830FA11E2F /* navigationbar_title_highlighted@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "navigationbar_title_highlighted@3x.png"; path = "XCImagePicker/Assets/navigationbar_title_highlighted@3x.png"; sourceTree = "<group>"; };
+		793FA428FB702094EFAECD176D7535B8 /* picker_button_orange.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = picker_button_orange.png; path = XCImagePicker/Assets/picker_button_orange.png; sourceTree = "<group>"; };
+		7A617BF945603D2AE76607BC6F3D924A /* PhotoAlbumManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PhotoAlbumManager.h; sourceTree = "<group>"; };
+		7B646B58E67B95C6553740056D173E34 /* XCImagePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCImagePicker-prefix.pch"; sourceTree = "<group>"; };
+		7DC32807F2AAC8B045F3697C154309B0 /* assets_placeholder_picture@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "assets_placeholder_picture@3x.png"; path = "XCImagePicker/Assets/assets_placeholder_picture@3x.png"; sourceTree = "<group>"; };
+		7FD78A63514C2870B762F30E019E9D11 /* compose_photograph_highlighted@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "compose_photograph_highlighted@3x.png"; path = "XCImagePicker/Assets/compose_photograph_highlighted@3x.png"; sourceTree = "<group>"; };
+		813FAA829E460FC654F073F2BB237C82 /* XCActionSheet_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XCActionSheet_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8181183167BFF95911F2E5B330C53D6D /* picker_image_placeholder.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = picker_image_placeholder.png; path = XCImagePicker/Assets/picker_image_placeholder.png; sourceTree = "<group>"; };
+		81A9F3785BD8EACD935B77CB862D192F /* JKUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JKUtil.m; sourceTree = "<group>"; };
+		82B1B4FF1F217CD4A9100F9C2C18E1AC /* Pods-XCImagePicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XCImagePicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		838C352312FC30EDBF95DDF37B5B5D69 /* photo_check_selected@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_check_selected@3x.png"; path = "XCImagePicker/Assets/photo_check_selected@3x.png"; sourceTree = "<group>"; };
+		907F75C166197512E7EDBE996AADE4E1 /* compose_photo_original@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "compose_photo_original@2x.png"; path = "XCImagePicker/Assets/compose_photo_original@2x.png"; sourceTree = "<group>"; };
+		90CC4BBF8C99DE411417E84073738CEC /* UIScrollView+XCExtension_h.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+XCExtension_h.m"; sourceTree = "<group>"; };
+		925AD9B81C71363C0583DDE3C6C48434 /* compose_photo_original@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "compose_photo_original@3x.png"; path = "XCImagePicker/Assets/compose_photo_original@3x.png"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		943D3DF8F7DF936751ACF6A05A102C9D /* XCActionSheet.-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XCActionSheet.-umbrella.h"; sourceTree = "<group>"; };
+		9476439486896F124F045248141BD7C3 /* picker_alert_sigh@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "picker_alert_sigh@3x.png"; path = "XCImagePicker/Assets/picker_alert_sigh@3x.png"; sourceTree = "<group>"; };
+		97CA6CB594F9E1C656560D35EE6E3F2F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9DA8373392FCC50A1654B1BF777FFBB1 /* JKAssetsGroupsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JKAssetsGroupsView.h; sourceTree = "<group>"; };
+		9E8A28C7260C317822D5D83D7BD0F97C /* XCActionSheet.-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XCActionSheet.-dummy.m"; sourceTree = "<group>"; };
+		A18B04C7B1344ECBB61F1CDE3A95CAE9 /* navigationbar_arrow_up@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "navigationbar_arrow_up@3x.png"; path = "XCImagePicker/Assets/navigationbar_arrow_up@3x.png"; sourceTree = "<group>"; };
+		A267964B2D826E04CEB8399467B13DF7 /* JKPromptView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JKPromptView.h; sourceTree = "<group>"; };
+		A28F5AE13BF08B3113E0E7BF2A4C2C14 /* XCImagePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XCImagePicker.xcconfig; sourceTree = "<group>"; };
+		A38D62AD4E884A599F932B6449A29234 /* Pods-XCImagePicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCImagePicker_Tests-resources.sh"; sourceTree = "<group>"; };
+		A4DD2BBF822549DF2EEF0A14D0078616 /* XCActionSheet_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XCActionSheet_.framework; path = XCActionSheet..framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A552EA6DFD2952AEF141890917344C97 /* Pods-XCImagePicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XCImagePicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A74284A5E370217C9C6A0432B26DC2DF /* Pods_XCImagePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XCImagePicker_Example.framework; path = "Pods-XCImagePicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A897DDB081CA4263D23EF8E13B37456E /* JKPhotoBrowser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JKPhotoBrowser.m; sourceTree = "<group>"; };
+		A987541F4B7E03FB8EC6A298AB538E9E /* navigationbar_arrow_down@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "navigationbar_arrow_down@2x.png"; path = "XCImagePicker/Assets/navigationbar_arrow_down@2x.png"; sourceTree = "<group>"; };
+		A9AF2E2141537FC9FCC0992A743FD30F /* XCActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCActionSheet.h; path = XCActionSheet/XCActionSheet.h; sourceTree = "<group>"; };
+		B2A0D8487E8FAF6F8574BBC2364F7F6D /* BrowserConfigure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BrowserConfigure.h; path = XCImagePicker/Classes/BrowserConfigure.h; sourceTree = "<group>"; };
+		B4F294E4FC70930F75F860E256FD4275 /* XCActionSheet..modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = XCActionSheet..modulemap; sourceTree = "<group>"; };
+		B7EB94EC13E4740FE3DE64F7632E31BC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8138268535F15D360D6197ECFF6F972 /* picker_button_orange_highlighted@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "picker_button_orange_highlighted@3x.png"; path = "XCImagePicker/Assets/picker_button_orange_highlighted@3x.png"; sourceTree = "<group>"; };
+		BCF9F2FF272EE58788BB24F5622963C9 /* BrowserManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BrowserManager.h; path = XCImagePicker/Classes/BrowserManager.h; sourceTree = "<group>"; };
+		BDE63CF343102F95FD29402437756D3B /* JKAssetsCollectionFooterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JKAssetsCollectionFooterView.h; sourceTree = "<group>"; };
+		BFC9C90A561FA7DDC694DB8D509F737A /* ResourceBundle-XCImagePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XCImagePicker-Info.plist"; sourceTree = "<group>"; };
+		C29071A734C381A8337F3B2B59E7FCDB /* picker_button_orange@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "picker_button_orange@2x.png"; path = "XCImagePicker/Assets/picker_button_orange@2x.png"; sourceTree = "<group>"; };
+		C52087F02091AF72119461233BD31F21 /* Pods-XCImagePicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XCImagePicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C932F1782E992BBA5FA662CBC868009F /* XCActionSheetConfigure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCActionSheetConfigure.m; path = XCActionSheet/XCActionSheetConfigure.m; sourceTree = "<group>"; };
+		CA952A4640BAFA42D0067605BFD82607 /* picker_photo_filter_checked.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = picker_photo_filter_checked.png; path = XCImagePicker/Assets/picker_photo_filter_checked.png; sourceTree = "<group>"; };
+		CD9CABB572B602A8C3DBB33A4AA57121 /* compose_photograph_highlighted@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "compose_photograph_highlighted@2x.png"; path = "XCImagePicker/Assets/compose_photograph_highlighted@2x.png"; sourceTree = "<group>"; };
+		D0117810F6F03E0A5E28845A367B4F66 /* picker_photo_filter_checked@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "picker_photo_filter_checked@3x.png"; path = "XCImagePicker/Assets/picker_photo_filter_checked@3x.png"; sourceTree = "<group>"; };
+		D1690A0E7A0C74B86255705D30ECB82B /* picker_alert_sigh@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "picker_alert_sigh@2x.png"; path = "XCImagePicker/Assets/picker_alert_sigh@2x.png"; sourceTree = "<group>"; };
+		D26F7ABB1206ABD0FD3CF8EE62CEE825 /* camera_edit_cut_cancel_highlighted@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "camera_edit_cut_cancel_highlighted@3x.png"; path = "XCImagePicker/Assets/camera_edit_cut_cancel_highlighted@3x.png"; sourceTree = "<group>"; };
+		D473D4254E7F1850B32007005FB8F86D /* XCMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XCMacros.h; path = XCMacros/XCMacros.h; sourceTree = "<group>"; };
+		D5F66EC5731B8CDBEF49025E848A8538 /* navigationbar_arrow_up.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = navigationbar_arrow_up.png; path = XCImagePicker/Assets/navigationbar_arrow_up.png; sourceTree = "<group>"; };
+		D612176B1E015E9B6A062670DA2B1281 /* XCActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XCActionSheet.m; path = XCActionSheet/XCActionSheet.m; sourceTree = "<group>"; };
+		D70D56B0CE9D455A5D28756DB8BC22A6 /* JKImagePickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JKImagePickerController.m; sourceTree = "<group>"; };
+		DC09A02C0624EA213C0BE537F7CA0E22 /* camera_edit_cut_cancel@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "camera_edit_cut_cancel@2x.png"; path = "XCImagePicker/Assets/camera_edit_cut_cancel@2x.png"; sourceTree = "<group>"; };
+		DEA7D25EB8D01A7E54402BE343A68BDD /* compose_photograph@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "compose_photograph@3x.png"; path = "XCImagePicker/Assets/compose_photograph@3x.png"; sourceTree = "<group>"; };
+		DECA33B5F9A1D47EEB0B641D3A42A1F1 /* JKAssetsGroupsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JKAssetsGroupsView.m; sourceTree = "<group>"; };
+		E00C94075BEDA7A10E630D969ED83F68 /* JKAssetsGroupCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JKAssetsGroupCell.m; sourceTree = "<group>"; };
+		E0FB012587443AD90B2080ABDFC3879F /* JKPhotoBrowser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JKPhotoBrowser.h; sourceTree = "<group>"; };
+		E2A83D4DF67F32E339D655C77144E64A /* picker_alert_sigh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = picker_alert_sigh.png; path = XCImagePicker/Assets/picker_alert_sigh.png; sourceTree = "<group>"; };
+		E72C44D13F7CC5C4AEC38C8183B5919E /* Pods-XCImagePicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XCImagePicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		E94DE29ADA28C845F7197C2329D18D35 /* navigationbar_title_highlighted@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "navigationbar_title_highlighted@2x.png"; path = "XCImagePicker/Assets/navigationbar_title_highlighted@2x.png"; sourceTree = "<group>"; };
+		EAC94E25F76400041723C273F0AEBD6B /* Pods-XCImagePicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XCImagePicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB715DF2FBA3F4214A3AE034964E901D /* UIView+JKPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+JKPicker.h"; sourceTree = "<group>"; };
+		EC31AC11E7DFFEF66BDBA32A4842E5A7 /* camera_edit_cut_cancel_highlighted@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "camera_edit_cut_cancel_highlighted@2x.png"; path = "XCImagePicker/Assets/camera_edit_cut_cancel_highlighted@2x.png"; sourceTree = "<group>"; };
+		ECC02B361BE6E8FD7BF4C8A67BD3D6AC /* Pods-XCImagePicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XCImagePicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		ECF66DC5B9D9F926A5487095B7C12607 /* BrowserConfigure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BrowserConfigure.m; path = XCImagePicker/Classes/BrowserConfigure.m; sourceTree = "<group>"; };
+		F1A4ACB7D5588234D9D84956BBCA689B /* Pods-XCImagePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCImagePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F4812449A5260128B901A9B38CDA4D3A /* assets_placeholder_picture@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "assets_placeholder_picture@2x.png"; path = "XCImagePicker/Assets/assets_placeholder_picture@2x.png"; sourceTree = "<group>"; };
+		F5CE06388EAEC5EA5973120EC72AE3C0 /* Pods_XCImagePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XCImagePicker_Tests.framework; path = "Pods-XCImagePicker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F60BA9916F3B8F86240F0BEAA0B6F3E3 /* XCImagePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XCImagePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F6809E93615BCD988A3AB93EDAE02744 /* JKAssetsCollectionFooterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JKAssetsCollectionFooterView.m; sourceTree = "<group>"; };
+		F7C172BA36857E6653C2EC51334ECAED /* Pods-XCImagePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XCImagePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7FACF12EE7C5D2A61B99D9B93F8A05C /* picker_button_orange@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "picker_button_orange@3x.png"; path = "XCImagePicker/Assets/picker_button_orange@3x.png"; sourceTree = "<group>"; };
+		FD60AA646E930C4907520AB04DC09700 /* picker_button_orange_highlighted@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "picker_button_orange_highlighted@2x.png"; path = "XCImagePicker/Assets/picker_button_orange_highlighted@2x.png"; sourceTree = "<group>"; };
+		FFF970B9F98C8C8A4DC6A45340B997A3 /* XCImagePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = XCImagePicker.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A1ECD3CDDEBB3FF3C78492665F2707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		342DBC5426FB08935344A0F07E6CC907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57514DFDA508B684B22DB397D702DCBE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6BF8717B47DFC9D85D7EA79BD93A2E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D64BDBAD37832174FEEE5B1DA3A541 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5EEA31AA7D87C553D22078C57F3E78D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61BD57F80C9E5C9C30C5DA62EF789753 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF861AABE8B017D80F1A0FBBFE4DE407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13AB6A1E2B68077AB4E442BC8B1609B2 /* Foundation.framework in Frameworks */,
+				B04B48B95E5E26994C7238BE18079FCF /* XCActionSheet_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1429BBBFAC2759D4CAEAA99D3D1C5EA0 /* JKPicker */ = {
+			isa = PBXGroup;
+			children = (
+				58070E3A128F0B20B61A75241EF92D9B /* JKAssets.h */,
+				3F6917A0A1EEF5A45974770A9DA2485A /* JKAssets.m */,
+				BDE63CF343102F95FD29402437756D3B /* JKAssetsCollectionFooterView.h */,
+				F6809E93615BCD988A3AB93EDAE02744 /* JKAssetsCollectionFooterView.m */,
+				366AC3A9247D1E92731641172F5DD868 /* JKAssetsGroupCell.h */,
+				E00C94075BEDA7A10E630D969ED83F68 /* JKAssetsGroupCell.m */,
+				9DA8373392FCC50A1654B1BF777FFBB1 /* JKAssetsGroupsView.h */,
+				DECA33B5F9A1D47EEB0B641D3A42A1F1 /* JKAssetsGroupsView.m */,
+				75465F82BC9C9755A31622719781561D /* JKAssetsThumbnailView.h */,
+				0B3C64441D63488C86DAD3FB6D32E5F0 /* JKAssetsThumbnailView.m */,
+				333C7E858D982572707D7EDE082DD256 /* JKAssetsViewCell.h */,
+				58A64BA2157A348772B0BF36691920D8 /* JKAssetsViewCell.m */,
+				616F7B87CDBB1BDCDE5FE45AF520B9FF /* JKImagePickerController.h */,
+				D70D56B0CE9D455A5D28756DB8BC22A6 /* JKImagePickerController.m */,
+				E0FB012587443AD90B2080ABDFC3879F /* JKPhotoBrowser.h */,
+				A897DDB081CA4263D23EF8E13B37456E /* JKPhotoBrowser.m */,
+				7297380C3518AA76E14B172462D84242 /* JKPhotoBrowserCell.h */,
+				6C3F300AB711AB5C3DC4328D3DF844AD /* JKPhotoBrowserCell.m */,
+				A267964B2D826E04CEB8399467B13DF7 /* JKPromptView.h */,
+				4FAEAD97987536C04C5BCCAC9FA0A01A /* JKPromptView.m */,
+				3F715CF691520F70ED494A8112C7362D /* JKUtil.h */,
+				81A9F3785BD8EACD935B77CB862D192F /* JKUtil.m */,
+				7A617BF945603D2AE76607BC6F3D924A /* PhotoAlbumManager.h */,
+				371A31C95BFC90051338FC5006109CF3 /* PhotoAlbumManager.m */,
+				61C7BB779E205FE233782E2F94F03F7D /* UIScrollView+XCExtension_h.h */,
+				90CC4BBF8C99DE411417E84073738CEC /* UIScrollView+XCExtension_h.m */,
+				EB715DF2FBA3F4214A3AE034964E901D /* UIView+JKPicker.h */,
+				61C8B78B2A0376E7D6B6E38B269FDE73 /* UIView+JKPicker.m */,
+			);
+			name = JKPicker;
+			path = XCImagePicker/Classes/JKPicker;
+			sourceTree = "<group>";
+		};
+		14FF2177D2BFA089AAFBFDE7E858AC27 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3307485039C843979635927840AFB87F /* XCImagePicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		22E93771D8A0859420F11B47473CF6BA /* Pods-XCImagePicker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				322C74629AE480EC30329D945887C3A3 /* Info.plist */,
+				2CFDD555DB70A10F095A33C4DCB6A7E6 /* Pods-XCImagePicker_Tests.modulemap */,
+				82B1B4FF1F217CD4A9100F9C2C18E1AC /* Pods-XCImagePicker_Tests-acknowledgements.markdown */,
+				EAC94E25F76400041723C273F0AEBD6B /* Pods-XCImagePicker_Tests-acknowledgements.plist */,
+				E72C44D13F7CC5C4AEC38C8183B5919E /* Pods-XCImagePicker_Tests-dummy.m */,
+				477DF58DF5E8F242D61864E81148FA45 /* Pods-XCImagePicker_Tests-frameworks.sh */,
+				A38D62AD4E884A599F932B6449A29234 /* Pods-XCImagePicker_Tests-resources.sh */,
+				A552EA6DFD2952AEF141890917344C97 /* Pods-XCImagePicker_Tests-umbrella.h */,
+				F7C172BA36857E6653C2EC51334ECAED /* Pods-XCImagePicker_Tests.debug.xcconfig */,
+				583DC3578E5F0EB1489574FBA2C5F044 /* Pods-XCImagePicker_Tests.release.xcconfig */,
+			);
+			name = "Pods-XCImagePicker_Tests";
+			path = "Target Support Files/Pods-XCImagePicker_Tests";
+			sourceTree = "<group>";
+		};
+		24A4B987C1216D61F551447CE78A467B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				61413C785B764DEC20AE882B40D77F6D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2D07B64769692E0B4DFE866C162C80C9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C5CB3C54ABE94B4F2611C72DC857D17 /* assets_placeholder_picture.png */,
+				F4812449A5260128B901A9B38CDA4D3A /* assets_placeholder_picture@2x.png */,
+				7DC32807F2AAC8B045F3697C154309B0 /* assets_placeholder_picture@3x.png */,
+				4BFB8C29E2F55189742793DA0E06962D /* camera_edit_cut_cancel.png */,
+				DC09A02C0624EA213C0BE537F7CA0E22 /* camera_edit_cut_cancel@2x.png */,
+				3C375DCDA73D0C5C90BCE4F7DB2B1823 /* camera_edit_cut_cancel@3x.png */,
+				2AA14C1542598D8E515301FEF9A19CDB /* camera_edit_cut_cancel_highlighted.png */,
+				EC31AC11E7DFFEF66BDBA32A4842E5A7 /* camera_edit_cut_cancel_highlighted@2x.png */,
+				D26F7ABB1206ABD0FD3CF8EE62CEE825 /* camera_edit_cut_cancel_highlighted@3x.png */,
+				907F75C166197512E7EDBE996AADE4E1 /* compose_photo_original@2x.png */,
+				925AD9B81C71363C0583DDE3C6C48434 /* compose_photo_original@3x.png */,
+				3C5599ADE9D2C4FA37857F2D2E46D6A8 /* compose_photo_original_highlighted@2x.png */,
+				71DFE893CD2A67B7D14415C4202E32E9 /* compose_photo_original_highlighted@3x.png */,
+				325DC4C3D071A78FD0497F09DB21CAC3 /* compose_photograph@2x.png */,
+				DEA7D25EB8D01A7E54402BE343A68BDD /* compose_photograph@3x.png */,
+				712889F8541AEBF72651F4AFEF7840C7 /* compose_photograph_background.png */,
+				524A65A38875BD05629071FD26A6FE1C /* compose_photograph_background@2x.png */,
+				42B5D13B268C7CFE1E1DE5AB1BBF0DBC /* compose_photograph_background@3x.png */,
+				CD9CABB572B602A8C3DBB33A4AA57121 /* compose_photograph_highlighted@2x.png */,
+				7FD78A63514C2870B762F30E019E9D11 /* compose_photograph_highlighted@3x.png */,
+				5A9987D26E79312B25707AC6A8E4F4EA /* navigationbar_arrow_down.png */,
+				A987541F4B7E03FB8EC6A298AB538E9E /* navigationbar_arrow_down@2x.png */,
+				33DBF818C14C7FFD6CC1DF478C0DA3AA /* navigationbar_arrow_down@3x.png */,
+				D5F66EC5731B8CDBEF49025E848A8538 /* navigationbar_arrow_up.png */,
+				629AA099C78351997A0A17B0F02593E9 /* navigationbar_arrow_up@2x.png */,
+				A18B04C7B1344ECBB61F1CDE3A95CAE9 /* navigationbar_arrow_up@3x.png */,
+				48E848974986EBE800552986956B08C2 /* navigationbar_title_highlighted.png */,
+				E94DE29ADA28C845F7197C2329D18D35 /* navigationbar_title_highlighted@2x.png */,
+				7891031632451A2E7584F2830FA11E2F /* navigationbar_title_highlighted@3x.png */,
+				0C26CCE075A5E31E5320E8A863E13946 /* photo_check_default@2x.png */,
+				62F77950767C410BE18D87DD5CCF5B64 /* photo_check_default@3x.png */,
+				1A0456B9F4136D1B9DF1F73D8A552D61 /* photo_check_selected@2x.png */,
+				838C352312FC30EDBF95DDF37B5B5D69 /* photo_check_selected@3x.png */,
+				E2A83D4DF67F32E339D655C77144E64A /* picker_alert_sigh.png */,
+				D1690A0E7A0C74B86255705D30ECB82B /* picker_alert_sigh@2x.png */,
+				9476439486896F124F045248141BD7C3 /* picker_alert_sigh@3x.png */,
+				793FA428FB702094EFAECD176D7535B8 /* picker_button_orange.png */,
+				C29071A734C381A8337F3B2B59E7FCDB /* picker_button_orange@2x.png */,
+				F7FACF12EE7C5D2A61B99D9B93F8A05C /* picker_button_orange@3x.png */,
+				15C8F18AB473A7F02E0C324C772A2DA0 /* picker_button_orange_highlighted.png */,
+				FD60AA646E930C4907520AB04DC09700 /* picker_button_orange_highlighted@2x.png */,
+				B8138268535F15D360D6197ECFF6F972 /* picker_button_orange_highlighted@3x.png */,
+				8181183167BFF95911F2E5B330C53D6D /* picker_image_placeholder.png */,
+				59FDD3E0C40D32CB6FA9DB67D0989117 /* picker_image_placeholder@2x.png */,
+				52626B1C5DC450703DB26E134F073385 /* picker_image_placeholder@3x.png */,
+				CA952A4640BAFA42D0067605BFD82607 /* picker_photo_filter_checked.png */,
+				4C0FB7F1CAA98D09F3F08ECEBA6B0CB1 /* picker_photo_filter_checked@2x.png */,
+				D0117810F6F03E0A5E28845A367B4F66 /* picker_photo_filter_checked@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3307485039C843979635927840AFB87F /* XCImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				B2A0D8487E8FAF6F8574BBC2364F7F6D /* BrowserConfigure.h */,
+				ECF66DC5B9D9F926A5487095B7C12607 /* BrowserConfigure.m */,
+				BCF9F2FF272EE58788BB24F5622963C9 /* BrowserManager.h */,
+				5813790763AB5FE0D7604B3F8EED49F6 /* BrowserManager.m */,
+				1429BBBFAC2759D4CAEAA99D3D1C5EA0 /* JKPicker */,
+				E94220FFF0FB3400DD587FA2AE7887AE /* Pod */,
+				2D07B64769692E0B4DFE866C162C80C9 /* Resources */,
+				E331B549E451915D07A568883AAC0DD1 /* Support Files */,
+			);
+			name = XCImagePicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		35603BDE5370A678CA1DD8FB415BB732 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				813FAA829E460FC654F073F2BB237C82 /* XCActionSheet_.framework */,
+				24A4B987C1216D61F551447CE78A467B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		458F67D70EBB85E71F2989C8E6543A93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A74284A5E370217C9C6A0432B26DC2DF /* Pods_XCImagePicker_Example.framework */,
+				F5CE06388EAEC5EA5973120EC72AE3C0 /* Pods_XCImagePicker_Tests.framework */,
+				A4DD2BBF822549DF2EEF0A14D0078616 /* XCActionSheet_.framework */,
+				6A6EB55189B0FC92F9E5B8C7C1FC4DB1 /* XCImagePicker.bundle */,
+				2A8B3A6A62C6E94EC21E99C8813F3F0C /* XCImagePicker.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		475C574972C893634320AF9D11DFF9DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64CC6E7C8937EF476328BB450AFB3198 /* Info.plist */,
+				B4F294E4FC70930F75F860E256FD4275 /* XCActionSheet..modulemap */,
+				5335A512D685726E6DCBD3E61D4C2C61 /* XCActionSheet..xcconfig */,
+				9E8A28C7260C317822D5D83D7BD0F97C /* XCActionSheet.-dummy.m */,
+				028F1B6BBD5A3E73C68DA759AC911FD6 /* XCActionSheet.-prefix.pch */,
+				943D3DF8F7DF936751ACF6A05A102C9D /* XCActionSheet.-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XCActionSheet.";
+			sourceTree = "<group>";
+		};
+		577AE704A116ADAB62A2D3A5E9F58A50 /* Pods-XCImagePicker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				47AB0A3C3972B8D694B41F4A5AD93103 /* Info.plist */,
+				4EC0FD04ADE44C161793E007A6417CE5 /* Pods-XCImagePicker_Example.modulemap */,
+				167B1DA1FF9602E72420868297D20985 /* Pods-XCImagePicker_Example-acknowledgements.markdown */,
+				C52087F02091AF72119461233BD31F21 /* Pods-XCImagePicker_Example-acknowledgements.plist */,
+				74C80CD05FDD5CEB442EFEDAB78D6B57 /* Pods-XCImagePicker_Example-dummy.m */,
+				ECC02B361BE6E8FD7BF4C8A67BD3D6AC /* Pods-XCImagePicker_Example-frameworks.sh */,
+				230B6D80C07CB9EFA7F1AD5EE6999F9E /* Pods-XCImagePicker_Example-resources.sh */,
+				672AAE59281004C24A567205032C2143 /* Pods-XCImagePicker_Example-umbrella.h */,
+				36B509C2E2396CF6FB79DEE0FF263C22 /* Pods-XCImagePicker_Example.debug.xcconfig */,
+				F1A4ACB7D5588234D9D84956BBCA689B /* Pods-XCImagePicker_Example.release.xcconfig */,
+			);
+			name = "Pods-XCImagePicker_Example";
+			path = "Target Support Files/Pods-XCImagePicker_Example";
+			sourceTree = "<group>";
+		};
+		6FC5D014E960C8C36001343B463CF563 /* XCActionSheet. */ = {
+			isa = PBXGroup;
+			children = (
+				A9AF2E2141537FC9FCC0992A743FD30F /* XCActionSheet.h */,
+				D612176B1E015E9B6A062670DA2B1281 /* XCActionSheet.m */,
+				1F4161B82F40369D88E24C69EDFFD5DC /* XCActionSheetConfigure.h */,
+				C932F1782E992BBA5FA662CBC868009F /* XCActionSheetConfigure.m */,
+				475C574972C893634320AF9D11DFF9DC /* Support Files */,
+			);
+			name = XCActionSheet.;
+			path = XCActionSheet.;
+			sourceTree = "<group>";
+		};
+		72B0E9FC06FE66A7CD350237C48FD52D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FC5D014E960C8C36001343B463CF563 /* XCActionSheet. */,
+				E4DCF44D41367E3C164E1A66DEEE3B57 /* XCMacros */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14FF2177D2BFA089AAFBFDE7E858AC27 /* Development Pods */,
+				35603BDE5370A678CA1DD8FB415BB732 /* Frameworks */,
+				72B0E9FC06FE66A7CD350237C48FD52D /* Pods */,
+				458F67D70EBB85E71F2989C8E6543A93 /* Products */,
+				EB212E8BDC7D042EE5688E8962162458 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E331B549E451915D07A568883AAC0DD1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7EB94EC13E4740FE3DE64F7632E31BC /* Info.plist */,
+				BFC9C90A561FA7DDC694DB8D509F737A /* ResourceBundle-XCImagePicker-Info.plist */,
+				FFF970B9F98C8C8A4DC6A45340B997A3 /* XCImagePicker.modulemap */,
+				A28F5AE13BF08B3113E0E7BF2A4C2C14 /* XCImagePicker.xcconfig */,
+				55B4ADAA7B3940E65B28F7EC83B93259 /* XCImagePicker-dummy.m */,
+				7B646B58E67B95C6553740056D173E34 /* XCImagePicker-prefix.pch */,
+				6797E06C4A3ECABAB03CB932F0A5A7BC /* XCImagePicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XCImagePicker";
+			sourceTree = "<group>";
+		};
+		E4DCF44D41367E3C164E1A66DEEE3B57 /* XCMacros */ = {
+			isa = PBXGroup;
+			children = (
+				D473D4254E7F1850B32007005FB8F86D /* XCMacros.h */,
+			);
+			name = XCMacros;
+			path = XCMacros;
+			sourceTree = "<group>";
+		};
+		E94220FFF0FB3400DD587FA2AE7887AE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				97CA6CB594F9E1C656560D35EE6E3F2F /* LICENSE */,
+				5F279948652F473C81524BB5FA3A0EBF /* README.md */,
+				F60BA9916F3B8F86240F0BEAA0B6F3E3 /* XCImagePicker.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		EB212E8BDC7D042EE5688E8962162458 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				577AE704A116ADAB62A2D3A5E9F58A50 /* Pods-XCImagePicker_Example */,
+				22E93771D8A0859420F11B47473CF6BA /* Pods-XCImagePicker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		254325AC37ED8893A352756696BA0909 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A6EFACE748C6A222A3B9E8A500CF470 /* Pods-XCImagePicker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D64B77ECADF01D453001EB95D8B9225 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8C56A37AB44B5920C3C3F7F347273F5 /* BrowserConfigure.h in Headers */,
+				28ACF6A40EF5067C648FA1787150FF3D /* BrowserManager.h in Headers */,
+				7EB55E30725514884B63F008826FCD69 /* JKAssets.h in Headers */,
+				85033FC5CA1A3A3909012C57F053388A /* JKAssetsCollectionFooterView.h in Headers */,
+				EEE407B0BCFE17509377F0EBC068AC15 /* JKAssetsGroupCell.h in Headers */,
+				3CDF3A4D8A916D806F32B54A13DCCBB9 /* JKAssetsGroupsView.h in Headers */,
+				7039C3F1919E459733B59E34A663A4C5 /* JKAssetsThumbnailView.h in Headers */,
+				FBD54A2C74641EA063AFC9B3FE679012 /* JKAssetsViewCell.h in Headers */,
+				1B0037FA71E372E4A4243C7680F05988 /* JKImagePickerController.h in Headers */,
+				309C98CF143467615B59A829BCDE2F18 /* JKPhotoBrowser.h in Headers */,
+				DBAA447BA800D3AE159B2E7D66CEC144 /* JKPhotoBrowserCell.h in Headers */,
+				D77CB34F1801522D05ED08025F179168 /* JKPromptView.h in Headers */,
+				8509B44EE92D5CE158EE43EE9EBEC70C /* JKUtil.h in Headers */,
+				7B9F43DF9E6FCF1232B8F98FFAC85BA4 /* PhotoAlbumManager.h in Headers */,
+				52413903286406D3853F5A94F2F3B2B7 /* UIScrollView+XCExtension_h.h in Headers */,
+				C87F8EF47B398DB89A29BF3A27403A69 /* UIView+JKPicker.h in Headers */,
+				ABE78BAD6544BE58ABCCF71493D24AA8 /* XCImagePicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F831931934A4FD475844D05221D0F35 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B7FE7A034DD00C1D9E88D19EA48226A /* Pods-XCImagePicker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6F8E76B48D0BC2389AC5D40D68FA0E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB4843DA308708CA39D66C7E6B9B30C7 /* XCActionSheet.-umbrella.h in Headers */,
+				7AEB5476327AE172E397CA521A3FDF61 /* XCActionSheet.h in Headers */,
+				940136779952E78E24A7D0FB89318389 /* XCActionSheetConfigure.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9363BAF0D87D30CF850533DE163FE769 /* XCImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61D0F519461BA6001520052B2EBA1C1 /* Build configuration list for PBXNativeTarget "XCImagePicker" */;
+			buildPhases = (
+				A9F8DAB55FB935F3F8A7BD389282E291 /* Sources */,
+				FF861AABE8B017D80F1A0FBBFE4DE407 /* Frameworks */,
+				FCAAE93CB3F9CF7E97D343419A3B547C /* Resources */,
+				2D64B77ECADF01D453001EB95D8B9225 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D892F87ED6695B305CA73772AD82583E /* PBXTargetDependency */,
+				4B03E561C68589D76D2339766C7E38BB /* PBXTargetDependency */,
+			);
+			name = XCImagePicker;
+			productName = XCImagePicker;
+			productReference = 2A8B3A6A62C6E94EC21E99C8813F3F0C /* XCImagePicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9CDC0FA82B5C623FF48FD2199455AFB5 /* Pods-XCImagePicker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 869317E10330D772C64FE5B6D5EF029F /* Build configuration list for PBXNativeTarget "Pods-XCImagePicker_Tests" */;
+			buildPhases = (
+				5E45589DA5331C2798903319FBD2C135 /* Sources */,
+				342DBC5426FB08935344A0F07E6CC907 /* Frameworks */,
+				8F831931934A4FD475844D05221D0F35 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-XCImagePicker_Tests";
+			productName = "Pods-XCImagePicker_Tests";
+			productReference = F5CE06388EAEC5EA5973120EC72AE3C0 /* Pods_XCImagePicker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B83CA61EF8D41AD20FB5440E2A48BA6D /* XCActionSheet. */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AA0011910A704747A932E01A2D105E6 /* Build configuration list for PBXNativeTarget "XCActionSheet." */;
+			buildPhases = (
+				828D99E9655D68A5B5D17F9FDF71A0D5 /* Sources */,
+				E6BF8717B47DFC9D85D7EA79BD93A2E3 /* Frameworks */,
+				B6F8E76B48D0BC2389AC5D40D68FA0E3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XCActionSheet.;
+			productName = XCActionSheet.;
+			productReference = A4DD2BBF822549DF2EEF0A14D0078616 /* XCActionSheet_.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C99F5BAB458477DD5A71098D7CCF9CC9 /* XCImagePicker-XCImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86F7A1AB74489C9FA765C98FFF259CDF /* Build configuration list for PBXNativeTarget "XCImagePicker-XCImagePicker" */;
+			buildPhases = (
+				AFD6DD32C7E552F7971AB83EA561808A /* Sources */,
+				18A1ECD3CDDEBB3FF3C78492665F2707 /* Frameworks */,
+				F822CD9C4DE0EDDB58B8DCC2E30CDD78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XCImagePicker-XCImagePicker";
+			productName = "XCImagePicker-XCImagePicker";
+			productReference = 6A6EB55189B0FC92F9E5B8C7C1FC4DB1 /* XCImagePicker.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E9B5C07033F6CCF39D0A08B56C3BFB6B /* Pods-XCImagePicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5077F1B28113A5DAAF5FE65062E72304 /* Build configuration list for PBXNativeTarget "Pods-XCImagePicker_Example" */;
+			buildPhases = (
+				2ACBB3F6FD5512AEEA614FCBF096DDA8 /* Sources */,
+				F5EEA31AA7D87C553D22078C57F3E78D /* Frameworks */,
+				254325AC37ED8893A352756696BA0909 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6282019BED85964B6604C8A093B0BAC3 /* PBXTargetDependency */,
+				5EC2AE2D02C4889729CADC40B357196C /* PBXTargetDependency */,
+			);
+			name = "Pods-XCImagePicker_Example";
+			productName = "Pods-XCImagePicker_Example";
+			productReference = A74284A5E370217C9C6A0432B26DC2DF /* Pods_XCImagePicker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 458F67D70EBB85E71F2989C8E6543A93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9B5C07033F6CCF39D0A08B56C3BFB6B /* Pods-XCImagePicker_Example */,
+				9CDC0FA82B5C623FF48FD2199455AFB5 /* Pods-XCImagePicker_Tests */,
+				B83CA61EF8D41AD20FB5440E2A48BA6D /* XCActionSheet. */,
+				9363BAF0D87D30CF850533DE163FE769 /* XCImagePicker */,
+				C99F5BAB458477DD5A71098D7CCF9CC9 /* XCImagePicker-XCImagePicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F822CD9C4DE0EDDB58B8DCC2E30CDD78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4633263B0E0D9C75B3D813D5864750 /* assets_placeholder_picture.png in Resources */,
+				A05164D19410A841070B5DC399557D1A /* assets_placeholder_picture@2x.png in Resources */,
+				93458ACC329E84FA8A311AAB6046001D /* assets_placeholder_picture@3x.png in Resources */,
+				ED9FAB57694899E1895EC8204B5C02D6 /* camera_edit_cut_cancel.png in Resources */,
+				C8270FE83B7B7149B35619726FB20DFA /* camera_edit_cut_cancel@2x.png in Resources */,
+				2699751FCDEDF4E46990782228D93F1F /* camera_edit_cut_cancel@3x.png in Resources */,
+				52055E14463EAF1EFB037D1843186CD8 /* camera_edit_cut_cancel_highlighted.png in Resources */,
+				DD239B9C2B80A2EEEF38CD348335FBFD /* camera_edit_cut_cancel_highlighted@2x.png in Resources */,
+				0E03D2B0B6E09E868AD30659E7D4D1A6 /* camera_edit_cut_cancel_highlighted@3x.png in Resources */,
+				AFE7E29E1D355FCC33B08D2391752E40 /* compose_photo_original@2x.png in Resources */,
+				067E733C45BAD78C6005D8D6D4906A13 /* compose_photo_original@3x.png in Resources */,
+				DCAC1BC0DA4FC78837291BE2FFBA6AFE /* compose_photo_original_highlighted@2x.png in Resources */,
+				A6DC1BA7FFB042E9553D04FE2F5CCEC7 /* compose_photo_original_highlighted@3x.png in Resources */,
+				77D132FF90FCD939A092CF8FDF59E74F /* compose_photograph@2x.png in Resources */,
+				D6AD4C5D8788EEC97C628038563A59C7 /* compose_photograph@3x.png in Resources */,
+				1265E2AD5308E9A0B1FC93D7939B359F /* compose_photograph_background.png in Resources */,
+				F8C4CADECA9072F360163FA97BB3F951 /* compose_photograph_background@2x.png in Resources */,
+				6DEE73AE513AF3E0CAE008C1989B58C9 /* compose_photograph_background@3x.png in Resources */,
+				FFD161223399E0A109A1B368BC0DFDCE /* compose_photograph_highlighted@2x.png in Resources */,
+				F72302ECA0E4618AB9CE17565D00B505 /* compose_photograph_highlighted@3x.png in Resources */,
+				CB5AB0C97B56A17A5E71573A7CFEA433 /* navigationbar_arrow_down.png in Resources */,
+				B39E7771778DFAF4F9A0FB0658A6095C /* navigationbar_arrow_down@2x.png in Resources */,
+				2D8AB947D82A693DB1C449E94379E7E6 /* navigationbar_arrow_down@3x.png in Resources */,
+				347149F2A3762DA5D16FDB6623B7311A /* navigationbar_arrow_up.png in Resources */,
+				9BD9B19A76C1BB2BCF2339F97BFC3CDD /* navigationbar_arrow_up@2x.png in Resources */,
+				AA837410E4264479D7378E870F56C4D2 /* navigationbar_arrow_up@3x.png in Resources */,
+				B215CD54058C2DD96BEFD79F3557DFFF /* navigationbar_title_highlighted.png in Resources */,
+				57A8629D19749C124B531AFEA3694A01 /* navigationbar_title_highlighted@2x.png in Resources */,
+				8A2883AC0E7F673C4BAAF5A7B2BB2749 /* navigationbar_title_highlighted@3x.png in Resources */,
+				8D009684E5492F5C9C81B99DE43220CA /* photo_check_default@2x.png in Resources */,
+				1E27174A35D6600D9B45B70FCC82527C /* photo_check_default@3x.png in Resources */,
+				591B07C1965789036D18465613B11902 /* photo_check_selected@2x.png in Resources */,
+				DE581A84E066E260AEB1734327AE2C85 /* photo_check_selected@3x.png in Resources */,
+				F3028F2187262546F101F44B3D22C548 /* picker_alert_sigh.png in Resources */,
+				B2BBAEDF12F27BECE0E72DAED58E76F8 /* picker_alert_sigh@2x.png in Resources */,
+				BA1827732B0BAB2AD276A85DE72541DC /* picker_alert_sigh@3x.png in Resources */,
+				954FA823EBEF693308C78DBC9424E1BD /* picker_button_orange.png in Resources */,
+				B9F6ADFEE4F34F7C362696ECAED4CA32 /* picker_button_orange@2x.png in Resources */,
+				35C2DCF71BDC227D9F0572EBC54BBC27 /* picker_button_orange@3x.png in Resources */,
+				46489C6A3C85081926106822FBB7CEA2 /* picker_button_orange_highlighted.png in Resources */,
+				7F1347A0C025F7FDB3A2C81DFA968613 /* picker_button_orange_highlighted@2x.png in Resources */,
+				86FECD7CEE6B6F0B534A08EE1E90AC71 /* picker_button_orange_highlighted@3x.png in Resources */,
+				26C177F371119A7982665B26FDCF9DE9 /* picker_image_placeholder.png in Resources */,
+				97A34083843CBB990C982A02F8BFA0F7 /* picker_image_placeholder@2x.png in Resources */,
+				FE286F4EEDC276C72E5BFAD0311BF907 /* picker_image_placeholder@3x.png in Resources */,
+				DB5F292B8A896895FCC06E4B0C97F88C /* picker_photo_filter_checked.png in Resources */,
+				E53B6347880752A416FF3E0BC155CAFD /* picker_photo_filter_checked@2x.png in Resources */,
+				4A85592D96B27CF93958ADE699AE126C /* picker_photo_filter_checked@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCAAE93CB3F9CF7E97D343419A3B547C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74093EFAD7B2A991F487FEC69092487E /* XCImagePicker.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2ACBB3F6FD5512AEEA614FCBF096DDA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC3EA09CB5BBC5F26896FE913E56A88 /* Pods-XCImagePicker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E45589DA5331C2798903319FBD2C135 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09C8BE8F3831201BF92F863679FFD6F /* Pods-XCImagePicker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		828D99E9655D68A5B5D17F9FDF71A0D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D3613469DC7CF90DEB6075B58B2DF4B /* XCActionSheet.-dummy.m in Sources */,
+				B93C57B30A605F0EE6AF13FAE76E5B82 /* XCActionSheet.m in Sources */,
+				CE8A9EC04577F990C6446958F789D75A /* XCActionSheetConfigure.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F8DAB55FB935F3F8A7BD389282E291 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F601C8369C34590BF2E57F9BA119D6 /* BrowserConfigure.m in Sources */,
+				0D2632FFF72CD131291298144ED5D77D /* BrowserManager.m in Sources */,
+				F820832C3859185DF51677F1D13589A3 /* JKAssets.m in Sources */,
+				F8CB483D2B1512AFE05157C0FE7B84EC /* JKAssetsCollectionFooterView.m in Sources */,
+				100C26D5D74C227B20B53F403AC0315A /* JKAssetsGroupCell.m in Sources */,
+				4A2B0F69B95B73FE4CFB956B296E1853 /* JKAssetsGroupsView.m in Sources */,
+				B6A893F59799574A3A9DBD857C8BACA5 /* JKAssetsThumbnailView.m in Sources */,
+				0B209BDAE9765D06082DDAB875F6896F /* JKAssetsViewCell.m in Sources */,
+				20D7C582CA75931AF427669C7D517C89 /* JKImagePickerController.m in Sources */,
+				30C0C399CF2C1A0A2C71157349E0C3AF /* JKPhotoBrowser.m in Sources */,
+				AB394E2D04BD5C2FAE1614149CC994E1 /* JKPhotoBrowserCell.m in Sources */,
+				AAAF25798334A654309ABE273463D89B /* JKPromptView.m in Sources */,
+				7301C8ACBE7056087F34AD160B800555 /* JKUtil.m in Sources */,
+				345AB77CEC41250B85359B0B8722BA69 /* PhotoAlbumManager.m in Sources */,
+				722BDCBE73292EF24FB1BABA9498E9CE /* UIScrollView+XCExtension_h.m in Sources */,
+				E43EB7A80C171C9EE3EB03FECE7D1E6E /* UIView+JKPicker.m in Sources */,
+				BAEFB38DDACD9F1CE65B10B3CCA01670 /* XCImagePicker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD6DD32C7E552F7971AB83EA561808A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B03E561C68589D76D2339766C7E38BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "XCImagePicker-XCImagePicker";
+			target = C99F5BAB458477DD5A71098D7CCF9CC9 /* XCImagePicker-XCImagePicker */;
+			targetProxy = A17BA5CAC9ADBC65BF658BD60FEF7B80 /* PBXContainerItemProxy */;
+		};
+		5EC2AE2D02C4889729CADC40B357196C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XCImagePicker;
+			target = 9363BAF0D87D30CF850533DE163FE769 /* XCImagePicker */;
+			targetProxy = 4B56F2423EAF9A73B07DFB3E5FB79AF1 /* PBXContainerItemProxy */;
+		};
+		6282019BED85964B6604C8A093B0BAC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XCActionSheet.;
+			target = B83CA61EF8D41AD20FB5440E2A48BA6D /* XCActionSheet. */;
+			targetProxy = 1F1F42E8B920748B37B37D73241503FB /* PBXContainerItemProxy */;
+		};
+		D892F87ED6695B305CA73772AD82583E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XCActionSheet.;
+			target = B83CA61EF8D41AD20FB5440E2A48BA6D /* XCActionSheet. */;
+			targetProxy = FD08BEB0962487B8D5674D635CF96025 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01FE84F1869106A38BE1A226A79F8FB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A28F5AE13BF08B3113E0E7BF2A4C2C14 /* XCImagePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XCImagePicker";
+				INFOPLIST_FILE = "Target Support Files/XCImagePicker/ResourceBundle-XCImagePicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XCImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		408A8C46556D76619D3D12025B53045F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36B509C2E2396CF6FB79DEE0FF263C22 /* Pods-XCImagePicker_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XCImagePicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XCImagePicker_Example/Pods-XCImagePicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_XCImagePicker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42A16651AC4E62B69BED4C79905414B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5335A512D685726E6DCBD3E61D4C2C61 /* XCActionSheet..xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XCActionSheet./XCActionSheet.-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XCActionSheet./Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XCActionSheet./XCActionSheet..modulemap";
+				PRODUCT_NAME = XCActionSheet_;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B2FD83E88FD077240F0313B11C48505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 583DC3578E5F0EB1489574FBA2C5F044 /* Pods-XCImagePicker_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XCImagePicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XCImagePicker_Tests/Pods-XCImagePicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_XCImagePicker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		915C80936346F0DB6ADEAA14AE258B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C172BA36857E6653C2EC51334ECAED /* Pods-XCImagePicker_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XCImagePicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XCImagePicker_Tests/Pods-XCImagePicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_XCImagePicker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		92F6553E7BE51667840E8F42BE364592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A28F5AE13BF08B3113E0E7BF2A4C2C14 /* XCImagePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XCImagePicker";
+				INFOPLIST_FILE = "Target Support Files/XCImagePicker/ResourceBundle-XCImagePicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XCImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		9AA4F7B12DAE93848C7E6D8482634B2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5335A512D685726E6DCBD3E61D4C2C61 /* XCActionSheet..xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XCActionSheet./XCActionSheet.-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XCActionSheet./Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XCActionSheet./XCActionSheet..modulemap";
+				PRODUCT_NAME = XCActionSheet_;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6FE1850B222F6A153E820E5859F5525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A28F5AE13BF08B3113E0E7BF2A4C2C14 /* XCImagePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XCImagePicker/XCImagePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XCImagePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XCImagePicker/XCImagePicker.modulemap";
+				PRODUCT_NAME = XCImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D75BA7C863E27E2D967CBC800BEA0E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1A4ACB7D5588234D9D84956BBCA689B /* Pods-XCImagePicker_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XCImagePicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XCImagePicker_Example/Pods-XCImagePicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_XCImagePicker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F906BF5DB7B9479ADCC18B1EE9D97D78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A28F5AE13BF08B3113E0E7BF2A4C2C14 /* XCImagePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XCImagePicker/XCImagePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XCImagePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XCImagePicker/XCImagePicker.modulemap";
+				PRODUCT_NAME = XCImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5077F1B28113A5DAAF5FE65062E72304 /* Build configuration list for PBXNativeTarget "Pods-XCImagePicker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				408A8C46556D76619D3D12025B53045F /* Debug */,
+				D75BA7C863E27E2D967CBC800BEA0E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		869317E10330D772C64FE5B6D5EF029F /* Build configuration list for PBXNativeTarget "Pods-XCImagePicker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				915C80936346F0DB6ADEAA14AE258B99 /* Debug */,
+				4B2FD83E88FD077240F0313B11C48505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86F7A1AB74489C9FA765C98FFF259CDF /* Build configuration list for PBXNativeTarget "XCImagePicker-XCImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01FE84F1869106A38BE1A226A79F8FB8 /* Debug */,
+				92F6553E7BE51667840E8F42BE364592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AA0011910A704747A932E01A2D105E6 /* Build configuration list for PBXNativeTarget "XCActionSheet." */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA4F7B12DAE93848C7E6D8482634B2C /* Debug */,
+				42A16651AC4E62B69BED4C79905414B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A61D0F519461BA6001520052B2EBA1C1 /* Build configuration list for PBXNativeTarget "XCImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6FE1850B222F6A153E820E5859F5525 /* Debug */,
+				F906BF5DB7B9479ADCC18B1EE9D97D78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
